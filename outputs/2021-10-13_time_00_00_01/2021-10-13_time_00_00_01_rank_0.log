@@ -1,0 +1,85 @@
+2021-10-13 00:00:01,746:INFO:Args:
+2021-10-13 00:00:01,746:INFO:--> enable_modelarts: False
+2021-10-13 00:00:01,747:INFO:--> data_url: 
+2021-10-13 00:00:01,747:INFO:--> train_url: 
+2021-10-13 00:00:01,747:INFO:--> checkpoint_url: 
+2021-10-13 00:00:01,747:INFO:--> output_dir: /cache
+2021-10-13 00:00:01,747:INFO:--> data_path: /cache/data
+2021-10-13 00:00:01,747:INFO:--> output_path: /cache/train
+2021-10-13 00:00:01,747:INFO:--> load_path: /cache/checkpoint_path
+2021-10-13 00:00:01,747:INFO:--> device_target: GPU
+2021-10-13 00:00:01,747:INFO:--> need_modelarts_dataset_unzip: True
+2021-10-13 00:00:01,747:INFO:--> modelarts_dataset_unzip_name: coco
+2021-10-13 00:00:01,747:INFO:--> data_dir: /home/th/data/BD44319
+2021-10-13 00:00:01,747:INFO:--> per_batch_size: 1
+2021-10-13 00:00:01,747:INFO:--> yolov5_version: yolov5l
+2021-10-13 00:00:01,747:INFO:--> pretrained_backbone: 
+2021-10-13 00:00:01,747:INFO:--> resume_yolov5: 
+2021-10-13 00:00:01,747:INFO:--> pretrained_checkpoint: 
+2021-10-13 00:00:01,747:INFO:--> lr_scheduler: cosine_annealing
+2021-10-13 00:00:01,747:INFO:--> lr: 0.013
+2021-10-13 00:00:01,747:INFO:--> lr_epochs: [220, 250]
+2021-10-13 00:00:01,747:INFO:--> lr_gamma: 0.1
+2021-10-13 00:00:01,748:INFO:--> eta_min: 0.0
+2021-10-13 00:00:01,748:INFO:--> T_max: 320
+2021-10-13 00:00:01,748:INFO:--> max_epoch: 320
+2021-10-13 00:00:01,748:INFO:--> warmup_epochs: 20
+2021-10-13 00:00:01,748:INFO:--> weight_decay: 0.0005
+2021-10-13 00:00:01,748:INFO:--> momentum: 0.9
+2021-10-13 00:00:01,748:INFO:--> loss_scale: 1024
+2021-10-13 00:00:01,748:INFO:--> label_smooth: 0
+2021-10-13 00:00:01,748:INFO:--> label_smooth_factor: 0.1
+2021-10-13 00:00:01,748:INFO:--> log_interval: 100
+2021-10-13 00:00:01,748:INFO:--> ckpt_path: outputs/
+2021-10-13 00:00:01,748:INFO:--> ckpt_interval: -1
+2021-10-13 00:00:01,748:INFO:--> is_save_on_master: 1
+2021-10-13 00:00:01,748:INFO:--> is_distributed: 0
+2021-10-13 00:00:01,748:INFO:--> rank: 0
+2021-10-13 00:00:01,748:INFO:--> group_size: 1
+2021-10-13 00:00:01,749:INFO:--> need_profiler: 0
+2021-10-13 00:00:01,749:INFO:--> training_shape: 
+2021-10-13 00:00:01,749:INFO:--> resize_rate: 10
+2021-10-13 00:00:01,749:INFO:--> is_modelArts: 0
+2021-10-13 00:00:01,749:INFO:--> pretrained: 
+2021-10-13 00:00:01,749:INFO:--> log_path: outputs/
+2021-10-13 00:00:01,749:INFO:--> ann_val_file: 
+2021-10-13 00:00:01,749:INFO:--> eval_nms_thresh: 0.6
+2021-10-13 00:00:01,749:INFO:--> eval_shape: 
+2021-10-13 00:00:01,749:INFO:--> ignore_threshold: 0.7
+2021-10-13 00:00:01,749:INFO:--> test_ignore_threshold: 0.001
+2021-10-13 00:00:01,749:INFO:--> multi_label: True
+2021-10-13 00:00:01,749:INFO:--> multi_label_thresh: 0.1
+2021-10-13 00:00:01,749:INFO:--> device_id: 0
+2021-10-13 00:00:01,749:INFO:--> batch_size: 1
+2021-10-13 00:00:01,749:INFO:--> testing_shape: 640
+2021-10-13 00:00:01,749:INFO:--> ckpt_file: 
+2021-10-13 00:00:01,749:INFO:--> file_name: yolov5
+2021-10-13 00:00:01,749:INFO:--> file_format: MINDIR
+2021-10-13 00:00:01,749:INFO:--> dataset_path: 
+2021-10-13 00:00:01,750:INFO:--> ann_file: 
+2021-10-13 00:00:01,750:INFO:--> hue: 0.015
+2021-10-13 00:00:01,750:INFO:--> saturation: 1.5
+2021-10-13 00:00:01,750:INFO:--> value: 0.4
+2021-10-13 00:00:01,750:INFO:--> jitter: 0.3
+2021-10-13 00:00:01,750:INFO:--> multi_scale: [[320, 320], [352, 352], [384, 384], [416, 416], [448, 448], [480, 480], [512, 512], [544, 544], [576, 576], [608, 608], [640, 640], [672, 672], [704, 704], [736, 736], [768, 768]]
+2021-10-13 00:00:01,750:INFO:--> num_classes: 80
+2021-10-13 00:00:01,750:INFO:--> max_box: 150
+2021-10-13 00:00:01,750:INFO:--> anchor_scales: [[12, 16], [19, 36], [40, 28], [36, 75], [76, 55], [72, 146], [142, 110], [192, 243], [459, 401]]
+2021-10-13 00:00:01,750:INFO:--> out_channel: 255
+2021-10-13 00:00:01,750:INFO:--> input_shape: [[3, 32, 64, 128, 256, 512, 1], [3, 48, 96, 192, 384, 768, 2], [3, 64, 128, 256, 512, 1024, 3], [3, 80, 160, 320, 640, 1280, 4]]
+2021-10-13 00:00:01,750:INFO:--> test_img_shape: [640, 640]
+2021-10-13 00:00:01,750:INFO:--> labels: ['person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush']
+2021-10-13 00:00:01,750:INFO:--> coco_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 67, 70, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 84, 85, 86, 87, 88, 89, 90]
+2021-10-13 00:00:01,750:INFO:--> result_files: ./result_Files
+2021-10-13 00:00:01,750:INFO:--> config_path: /home/th/Qsync/code/dl_mindspore/models/official/cv/yolov5/model_utils/../default_config.yaml
+2021-10-13 00:00:01,750:INFO:--> data_root: /home/th/data/BD44319/train
+2021-10-13 00:00:01,751:INFO:--> annFile: /home/th/data/BD44319/annotations/train.json
+2021-10-13 00:00:01,751:INFO:--> rank_save_ckpt_flag: 1
+2021-10-13 00:00:01,751:INFO:--> outputs_dir: outputs/2021-10-13_time_00_00_01
+2021-10-13 00:00:01,751:INFO:--> logger: <LOGGER YOLOV5 (NOTSET)>
+2021-10-13 00:00:01,751:INFO:
+2021-10-13 00:00:06,008:INFO:Finish loading dataset
+2021-10-13 00:01:56,315:INFO:epoch[0], iter[0], loss:7038.096191, fps:0.01 imgs/sec, lr:8.694488684568569e-08
+2021-10-13 00:03:11,297:INFO:epoch[0], iter[100], loss:2535.754470, fps:1.33 imgs/sec, lr:8.781434189586435e-06
+2021-10-13 00:04:27,521:INFO:epoch[0], iter[200], loss:205.050140, fps:1.31 imgs/sec, lr:1.747592250467278e-05
+2021-10-13 00:05:48,470:INFO:epoch[0], iter[300], loss:152.026445, fps:1.24 imgs/sec, lr:2.617041172925383e-05
